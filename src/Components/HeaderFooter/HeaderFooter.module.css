@@ -1,0 +1,208 @@
+
+*{
+    font-family: Muli,sans-serif;
+  }
+  .navbar_container{
+    width:94%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navbar_containe:hover {
+    background-color: #ad1e23;
+  }
+
+  .inner_container{
+    display: flex;
+    
+  }
+  .inner_container > img{
+    width:26px;
+  }
+  .flex{
+    display: flex;
+  }
+  .inner_container > *{
+    margin:5px;
+  }
+  .navbar_login  > div:first-child{
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: .05em;
+    padding: 3px 28px 3px 15px;
+    text-align: center;
+    line-height: 1.6;
+    border: 1px solid #f37e20;
+    text-transform: uppercase;
+    white-space: nowrap;
+    background: #fff;
+    color: #f37e20;
+    border-radius: 50px 0 0 50px;
+  }
+  .navbar_container >div>a>img{
+    max-width: 35px;
+  }
+  .navbar_login  > div:nth-child(2){
+    
+    background: #f37e20;
+    color: #fff;
+    border: 1px solid #f37e20;
+    border-radius: 50px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: opacity .2s;
+    background-color: #f37e20;
+    border-color: #f37e20;
+    padding: 3px 25px;
+    cursor: pointer;
+      display: inline-block;
+      font-weight: 600;
+      font-size: 12px;
+      letter-spacing: .05em;
+      padding: 5px 10px 5px;
+      text-align: center;
+      line-height: 1.6;
+      position: relative;
+      z-index: 1;
+      margin-left: -20px;
+  }
+  .input_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 675px;
+    height: 36px;
+    border-radius: 20px;
+    border: solid 1.5px #053c6d;
+    background-color: #feeed3;
+    outline: 0;
+    color: #f5821f;
+    position: relative;
+    font-family: Muli,sans-serif;
+    font-weight: 500;
+  
+  }
+  .input_box input{
+    border: none;
+      outline: 0;
+      width: 88%;
+      height: 30px;
+      opacity: .7;
+      font-size: 18px;
+      font-weight: 700;
+      font-family: Muli,sans-serif;
+      text-overflow: ellipsis;
+      color: #053c6d;
+      background-color: #feeed3!important
+  }
+  
+  .logo_box{
+    width:30%;
+    display: flex;
+    align-items: center;
+  }
+  .logo_box *{
+    padding:2px 10px;
+    color: #4b4b4b;
+    font-size: 11px;
+  
+  }
+  .logo_box >img{
+    height:27px
+  }
+  .logo_box>*:first-child , .logo_box>*:nth-child(2){
+    border-right: 1px solid #e9e7e7;
+  }
+  .options{
+    margin-top: 15px;
+  }
+  .options p{
+   margin:6px;
+  }
+  .options >div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #e9e7e7;
+  }
+  .options >div :hover {
+      cursor: pointer;
+      color:#fd7200;
+  }
+
+  .options >div a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid #e9e7e7;
+    text-decoration: none;
+  }
+
+  .apply_link{
+    background: linear-gradient(360deg,#ad1e23 0,#ff3a40 100%);
+      border-radius: 50px;
+      position: relative;
+      color: #fff;
+      width: 150px;
+      padding: 4px;
+      font-size: 12px;
+      font-weight: 800;
+      cursor: pointer;
+      margin-right: 10px;
+      letter-spacing: .8px
+  }
+  
+  .footer_wrapper{
+    background-color: #000000;
+  }
+  .bottom_footer_wrapper{
+    background-color: #4b4b4b;
+  }
+  .bottom_footer_wrapper >div{
+    color:white;
+    padding: 60px 0px;
+    width:75%;
+    margin:auto;
+    display: flex;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: .05em;
+      text-decoration: none;
+    justify-content: space-between;
+  }
+  .bottom_footer_wrapper li{
+    margin-top: 12px;
+    list-style-type: none;
+    font-weight: normal;
+    color: #afafaf;
+    cursor: pointer;
+  }
+  .bottom_footer_wrapper ul{
+    padding:0
+  }
+  .bottom_footer_wrapper >div>div:last-child>div{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer{
+    color:white;
+    padding: 23px 0px;
+    width:75%;
+    margin:auto;
+    display: flex;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: .05em;
+      text-decoration: none;
+      text-transform: uppercase;
+    justify-content: space-between;
+  }
+
+  .footer div:hover{
+    color:#ad1e23
+  }

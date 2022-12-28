@@ -1,0 +1,80 @@
+
+
+.subdiv2 {
+    text-align: start;
+    padding-top:1px;
+    margin-left: 17%;
+    background-color: #2d2e2e;  
+    height:100%;
+    min-height: 100vh;
+}
+
+.borderBottom {
+    width: 100%;
+    height: 60px;
+    box-shadow: 0 5px 13px -8px rgb(93 91 91 / 75%);
+    padding: 0.75rem 0;
+    display: flex;
+}
+
+.borderBottom img {
+    margin-left: 90%;
+   
+   }
+
+.sbd2div2 {
+  
+    margin: 50px auto;
+    width: 62%;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-radius: 25px;
+    padding: 20px 50px;
+    
+}
+.sbd2div2 ol{
+    padding: 0;
+}
+.sbd2div2 h2 {
+    font-size: 1.25rem;
+    color: #ffffff;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.sbd2div2 h3 {
+    color: #ffffff;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.inputTag {
+    font-size: .8rem;
+    margin: 0 0 0.5rem;
+    color: #626262;
+    padding: 1rem 0 0!important;
+    border: none!important;
+    border-bottom: 1px solid #c8cacc!important;
+    font-size: .8rem;
+    width: 25%;
+    height: 20px!important;
+    outline: none;
+}
+
+.fromDiv li{
+    color: rgb(255, 255, 255);;
+    font-size: 15px;
+    line-height: 140%;
+    font-family: Muli,sans-serif;
+    font-weight: 400;
+
+    margin-left: 20px;
+}
+
+.fromDiv label{
+    color: rgb(80, 80, 80);;
+    font-size: 15px;
+    line-height: 140%;
+    font-family: Muli,sans-serif;
+    font-weight: 400;
+    background: #fff;
+    margin-left: 20px;
+}

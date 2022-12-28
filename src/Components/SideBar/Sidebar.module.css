@@ -1,0 +1,28 @@
+.navbar {
+    width: 20%;
+    height: 100%;
+    background: #1C2021;
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar>div:first-child {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.navbar>div>img {
+    max-width: 80px;
+    margin-left: -50px;
+}
+
+
+
+.sidenavList p {
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+

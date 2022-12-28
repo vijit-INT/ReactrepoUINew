@@ -1,0 +1,40 @@
+
+
+.subdiv2 {
+    text-align: start;
+    margin-left: 20%;
+    background-color: #2d2e2e;
+    height: 100%;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+.sbd2div2 {
+    text-align: center;
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    padding-top: 60px;
+    
+}
+
+
+.subdiv2 button {
+    
+    margin-top: 50px;
+}
+
+
+
+.sbd2div2 h2 {
+    font-size: 1.25rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+.sbd2div2 h3 {
+    color: white;
+    font-size: .8rem;
+    font-weight: 700;
+}
